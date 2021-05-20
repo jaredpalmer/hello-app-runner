@@ -100,7 +100,7 @@ def generate_avatar_image():
     try:
         avatar.render_png_file('avatar.png')
     except Exception as e:
-        logging.ERROR('Could not write avatar file with error: %s', e)
+        logging.ERROR('Could not write avatar file with error (boop): %s', e)
 
 # Generate and save a social media banner image
 def generate_social_card(avatar_file):
